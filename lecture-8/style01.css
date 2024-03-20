@@ -1,0 +1,27 @@
+/* universal selector  hai ye star */
+*{
+  margin: 0px;
+  padding:5px;
+}
+div{
+    border: 4px solid hotpink;
+    width: 100px;
+    height:100px;
+    padding:10px;
+    margin: 20px;
+   
+}
+h1{
+    border: 5px dashed yellow;
+    width: 300px;
+   
+}
+span{
+    border: 4px solid hotpink;
+    width: 100px;
+    height:100px;
+    padding:10px;
+    margin: 20px;
+    display: inline-block;
+    background-color: aqua;
+}

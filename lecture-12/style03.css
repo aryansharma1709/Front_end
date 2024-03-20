@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+div{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+section:hover div{
+    width: 100vw;
+    transition-duration: 3s;
+    height: 100px;
+}
+
+#aru1{
+    transition-timing-function: linear;
+}
+#aru2{
+    transition-timing-function: ease-in;
+}
+#aru3{
+    transition-timing-function: ease-out;
+}
+#aru4{
+    transition-timing-function: ease-in-out;
+}
+/* 
+note:" saari property tabhi dekhegi jab hum transition duration proeprty laga dege"
+ transition timing function--:
+ //// YE JO PROPERTY HAI USSE HUM SPEED KO CHANGE KAR SKTE HAI  
+  i. ease in: isme ye hota hai (phle slow then fast)
+  ii. ease out: fast then slow
+  iii. linear : linear me speed constant rehti hai 
+  iv. ease in out: isme pehle slow phir fast bich me then uske baad last me phir slow 
+*/

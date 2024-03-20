@@ -1,0 +1,20 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(121, 61, 177);
+    transition-duration: 1s;
+    transition-property:background-color border-radius;
+}
+.box:hover{
+    border-radius: 50%;
+    background-color: rgb(212, 13, 113);
+  
+}
+/*
+ ----TRANSITON PROPERTY -------
+ ye transiton tab dete hai jab koi bhi cheez ka  dheere dheere change karna hai to hum transition ka use karte hai.
+ NOTE: by defualt transition sab par lag jati hai but agar hume particular par lagani hai to hum  "TRANSITION-PROPERTY KA USE KARTE HAI"
+ (aur ek se jyada par particular transition lagna hai to space separated likhege uski attribute ko transition property me )
+
+
+*/

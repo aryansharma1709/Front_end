@@ -1,0 +1,44 @@
+/*
+-------------How media query work project-----------------------------
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(174, 207, 24);
+    min-height: 60px;
+    align-items: center;
+}
+div{
+    display:flex;
+    width: 50vw;
+    justify-content:space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:800px){
+header{
+    flex-direction: column;
+}  
+div{
+    flex-direction: column;
+    align-items: center;
+}  
+section{
+    flex-direction: column;
+    align-items: center;
+}
+}
+section{
+   
+   display: flex;
+   justify-content: center;
+   
+ 
+}

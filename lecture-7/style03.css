@@ -1,0 +1,22 @@
+/* em */
+ul>li{
+    font-size: 2em;
+}
+
+/*  */
+section{
+    background-color: hotpink;
+    width: 300%;
+}
+div{
+    width: 700%;
+    background-color: red;
+}
+p{
+    width: 50%;
+}
+section{
+    width: 50vw;
+    width: 60vh;
+    background-color: green;
+}

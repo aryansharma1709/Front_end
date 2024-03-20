@@ -1,0 +1,64 @@
+div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+}
+/* flex  direction by default row hoti hai 
+ aur jo flex direction ki direction hai to main axis ka direction wahi rahega 
+NOTE: INLINE BLOCK IS A CHILD PROPERTY AND FLEX IS A PARENT PROPERTY HAI
+*/
+section{
+    background-color: yellow;
+    height: 300px;
+    display: flex;
+    border: 2px solid hotpink;
+    /* flex-direction: column; */
+    /* flex-direction:  row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* justify-content:start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly;  saari space equally hongi corner me bhi same hogi*/
+    /* justify-content: space-around; agar corner ko join karu to half half space dono side hoti hai to bo join hoke same ho jati hai  mtlb in short(jo bich ki space hai bo hi dono corner ke sum ke equal ho jati hai) */
+    /* justify-content:space-between;  no space from the both right and left corner  only in between */
+    justify-content: space-between;
+    align-items:center;
+   /* flex-wrap: nowrap; default  hoti hai nowrape */
+   flex-wrap: nowrap;
+   /* align-content: flex-start; */
+   /* align content ki default property hai flex around  */
+   /* gap: 30px; */
+   /* row-gap: 30px; */
+   /* column-gap: 10px; */
+}
+#div3{
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+
+}
+#div4{
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+    align-self:center;
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+/* justify content main axis ke along kaam karti hai 
+ align item cross axis ke along kaam karti hai aur iska Default porperty hoti hai  STRETCH
+ cross axis 90 oar hoga main axis aur its depend on main axis
+  */
+
+  /* 
+   CHILD PROERTIES:
+   1.FLEX GROW ARE USED FOR SPACE DIVDIING 
+    value agar di hai humne without unit to bo ratio me consider hongi ;
+    2. flex- shrink  intenisty shrink hone ki by default 1 hoti hai
+      note: ye nowarp me lagega aur dikhega kyuki isme item shrink hote hai 
+  
+  */

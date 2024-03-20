@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    background: rgb(14, 0, 0);
+    gap: 10px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.pic {
+    background-image: url(https://images.unsplash.com/photo-1511561415413-c643d4969838?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 50rem;
+}
+.wolf
+{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 600px;
+}
+
+.band{
+   
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+}
+.ins{
+    display: flex;
+        align-items: center;
+        gap:20px;
+        padding: 100px;
+
+}
+#music{
+    text-align: center;
+   font-style: oblique;
+   color: gray;
+}
+
+    .kallu{
+        text-align: center;
+        background-image: url(https://images.unsplash.com/photo-1618123069754-cd64c230a169?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        gap:20px;
+        padding: 100px;
+    }
+   
+    .form{
+        width: 80%;
+    margin: auto;
+    padding: 3rem 5rem;
+    text-align: center;
+    }
+    #drop{
+        font-style: oblique;
+        color: gray;
+    }
+    .cont{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20rem;
+
+    }
+    .moye{
+    
+    }
+
+

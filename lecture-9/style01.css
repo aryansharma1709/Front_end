@@ -1,0 +1,25 @@
+li{
+    /* border: 2px solid rgb(188, 78, 78); */
+    list-style-type: circle;
+    list-style-position: inside;
+}
+li{
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+     border-top-width:5px ;
+}
+div{
+    border: 2px solid rgb(53, 116, 53);
+    background-color: hotpink;
+    /* margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px; */
+
+    /* short hand me likh skte hai clockwise order me  */
+    margin: 5px 20px 10px 10px;
+    /* pairing in shorthand */
+    margin: 20px 10px;
+    margin: 20px 4px 10px;
+}

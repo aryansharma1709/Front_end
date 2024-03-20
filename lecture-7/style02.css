@@ -1,0 +1,42 @@
+/* after use */
+h1::after{
+    content: " lets play";
+    
+}
+/* before use */
+h1::before{
+    content: "hello ";
+}
+/* first-line use */
+p::first-line
+{
+    text-transform: uppercase;
+}
+/* first-letter */
+h2::first-letter
+{
+    color: hotpink;
+    font-size: 60px;
+    text-transform: uppercase;
+    
+}
+/* inheritance */
+ul>li{
+   color: hotpink;
+   font-size: 50px;
+   border-top:solid red;
+}
+/* emoji */
+h2::after{
+    content: '\1F3C0';
+}
+/* color */
+h3{
+    /* color: rgb(150, 20, 10); */
+    color: rgba(150, 20, 10,0.6);
+}
+/* hexadecimal color */
+h4
+{
+    color: #ee0301aa;
+}

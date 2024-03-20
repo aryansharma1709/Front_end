@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+    <section id="static">
+        <div style ="background-color: red;">div -1</div>
+        <div style ="background-color: green;" id="middle">div -2</div>
+        <div style ="background-color: yellow;">div -3</div>
+    </section>
+    <section id="relative">
+        <div style ="background-color: red;">div -1</div>
+        <div style ="background-color: green;" id="middle">div -2</div>
+        <div style ="background-color: yellow;">div -3</div>
+    </section>
+    <section id="absolute">
+        <div style ="background-color: red;">div -1</div>
+        <div style ="background-color: green;" id="middle">div -2</div>
+        <div style ="background-color: yellow;">div -3</div>
+    </section>
+    <section id="fixed">
+        <div style ="background-color: rgb(232, 123, 123);">div -1</div>
+        <div style ="background-color: rgb(133, 157, 133);" id="middle">div -2</div>
+        <div style ="background-color: rgb(62, 62, 8);">div -3</div>
+    </section>
+    <section id="sticky">
+        <div style ="background-color: rgb(165, 59, 59);">div -1</div>
+        <div style ="background-color: rgb(52, 80, 52);" id="middle">div -2</div>
+        <div style ="background-color: rgb(126, 126, 48);">div -3</div>
+    </section>
+    <section id="static">
+        <div style ="background-color: rgb(48, 122, 188);">div -1</div>
+        <div style ="background-color: rgb(145, 66, 138);" id="middle">div -2</div>
+        <div style ="background-color: rgb(50, 23, 97);">div -3</div>
+    </section>
+    <section id="static">
+        <div style ="background-color: rgb(48, 122, 188);">div -1</div>
+        <div style ="background-color: rgb(145, 66, 138);" id="middle">div -2</div>
+        <div style ="background-color: rgb(50, 23, 97);">div -3</div>
+    </section><section id="static">
+        <div style ="background-color: rgb(48, 122, 188);">div -1</div>
+        <div style ="background-color: rgb(145, 66, 138);" id="middle">div -2</div>
+        <div style ="background-color: rgb(50, 23, 97);">div -3</div>
+    </section>
+</body>
+</html>
+<!-- 
+    /////POSSITION////
+    offset: four --
+          top 
+    left      right
+        bottom
+
+NOTE: static property ke upar  offset kaam nhi karte hai..
+      body ko position browser de deta
+ there are five type position property:
+  i.static 
+  ii.RELATIVE me offset kaam karege  
+
+  iii.ABSOLUTE : iski functioning thodi diffferent hai---
+      // TWO POINT TO REMEMBER..
+      1.agar hum koi bhi element ko position deta hai to bo ek level upar shift ho jata aur side bala element uski jagah shift ho jata hai  to top view me bss jo ek level upar shift hau hai bo hi dikhta hai
+      2. isme jo iska parent hoga recently aur usko postion offset diye gye hoge uske according chalega 
+
+   iv FIXED: isme element apni jagah se nhi hilega nhi (fixed ho jata hai)
+     aur ye apne parent ki positon par depend nhi karta ye body ki positon ke according hota hai isme
+         
+     DIFFERENCE BETWEEN FIXED AND ABSOLUTE--
+     fixed move nhi karta page ke saath y fixed ho jata hai 
+     but absolute  move karta hai page ke saath
+
+    v. STICKY mixture of fixed and relative
+ -->

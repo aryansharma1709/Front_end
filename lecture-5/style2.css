@@ -1,0 +1,29 @@
+/* element selector */
+h1
+{
+ color: hotpink;
+ font-size: 50px;
+}
+/* id selector */
+#aryan
+{
+    background-color: crimson;
+    font-size: 40px;
+}
+/* class selector */
+.aru
+{
+    background-color:aqua;
+  font-size:30px;
+}
+/* attribute selector */
+input[type="text"]
+{
+    background-color: hotpink;
+    color: cornsilk;
+
+}
+/* universal selector */
+*{
+    border: 2px dotted black;
+}

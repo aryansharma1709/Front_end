@@ -1,0 +1,38 @@
+/* child combinator */
+/* div>p>h1{
+    color:rgb(255, 99, 47);
+} */
+/* descandant combinator */
+div ol li{
+    background-color: aqua;
+}
+/* adjacent combinator */
+div>ul>h1+li{
+    color: burlywood;
+}
+/* general combinator */
+div>ul>h1~li {
+    background-color: hotpink;
+}
+/* hover psuedo classes */
+body>h1:hover{
+    color: hotpink;
+    background-color: orange;
+}
+/* focus psuedo classes */
+input:focus{
+    color: hotpink;
+}
+/* active psuedo classes */
+a:active{
+    color: blueviolet;
+}
+/* visited psuedo classes*/
+/* #p:visited{
+    color: aqua;
+} */
+
+div>p>h1{
+    color:rgb(255, 99, 47);
+    font-size: 40px;
+}
