@@ -1,0 +1,33 @@
+*{
+    font-family:sans-serif;
+    background-color:bisque;
+}
+
+h1{
+    color: hotpink;
+    background-color: rgb(249, 208, 156);
+    width: 200px;
+}
+div{
+    padding: 3px;
+}
+legend{
+    background-color: black;
+    color:white;
+    width: 100px;
+    text-align: center;
+    border: dashed 2px;
+}
+button{
+    background-color: black;
+    color: white;
+    
+}
+#re{
+    background-color: rgb(171, 167, 164);
+    width: 4rem;
+}
+#su{
+    background-color: rgb(252, 203, 158);
+    width: 4rem;
+}

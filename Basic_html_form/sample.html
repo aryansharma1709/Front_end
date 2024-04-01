@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <h1>Basic form</h1>
+  <form action="post">
+    <fieldset>
+        <legend>Let's Fill</legend>
+        <div>
+            <label for="name"> Name of Candidate:</label>
+        <input type="text" id="name" placeholder="enter your name">
+        </div>
+        <div>
+            <label for="ame"> Choose Your Profile:</label>
+        <input type="file" id="ame" accept="image/png image/jpeg">
+        </div>
+        <div>
+            <label for="fname"> Father Name:</label>
+        <input type="text" id="fname" placeholder="enter your father name">
+        </div>
+        <div>
+            <label for="mname"> Mother Name:</label>
+        <input type="text" id="mname" placeholder="enter your mother name">
+        </div>
+        <div>
+            <label for="aname"> Address:</label>
+        <input type="text" id="dname" placeholder="enter your address" >
+        </div>
+        <div>
+            <label for="cname">College Name:</label>
+        <input type="text" id="cname" placeholder="enter your college name">
+        </div>
+        
+        <caption>Enroll courses</caption>
+        <div>
+            <input type="checkbox" id="ml" >
+            <label for="ml"> ml</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cn" >
+            <label for="cn"> cn</label>
+            
+        </div>
+        <div>
+            <label for="join">Date of Joining:</label>
+            <input type="date"  id="join" min="2024-04-02" required>
+        </div>
+        <div>
+            <label for="born">Date of Birth:</label>
+            <input type="date" id="born" max="2002-01-01" required>
+        </div>
+        <div>
+            <label for="meet">Choose your interview slot:</label>
+            <input type="datetime-local" id="meet" min="2024-04-02T10:00" max="2024-04-02T18:00" required>
+        </div>
+        <div>
+            <label for="e">E-mail:</label>
+            <input type="email" id="e" size="30" pattern=".+@example.com" placeholder="enter your email" required>
+
+        </div>
+        <caption>Gender</caption>
+        <div>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="range" id="b"  min="0" max="11">
+            <label for="b">Brightness</label>
+        </div>
+        <div>
+            <label for="ph">Contact detail:</label>
+        <input type="tel" id="ph" max="10">
+        </div>
+    </div>
+    <label for="hp">Registration no;:</label>
+    <input type="number" id="hp" max="10">
+    </div>
+    <div>
+        <label for="sr">How to add sreachbox:</label>
+        <input type="search" id="sr" name="q" placeholder="search the site">
+        <button>search</button>
+    </div>
+    <div>
+        <label for="git"> Github profile:</label>
+        <input type="url" id="git" pattern="https://.*" size="30" placeholder="https://example.com">
+    </div>
+    <div>
+        <label for="it"> LinkedIn profile:</label>
+        <input type="url" id="it" pattern="https://.*" size="30" placeholder="https://example.com">
+    </div>
+    </fieldset>
+    <div>
+        <input type="reset"  id="re" value="Reset">
+        <input type="submit" id="su" value="Submit">
+    </div>
+   
+  </form>
+</body>
+</html>
